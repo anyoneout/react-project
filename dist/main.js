@@ -2947,7 +2947,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `#homeTitle {
 
 #homeHeader .highlight {
   background-color: yellow;
-}`, "",{"version":3,"sources":["webpack://./src/Views/Home.scss"],"names":[],"mappings":"AAAA;EACI,oCAAA;AACJ;;AAGI;EACI,gBAAA;AAAR;AAEI;EACI,wBAAA;AAAR;;AAKI;EACI,wBAAA;AAFR","sourcesContent":["#homeTitle {\r\n    background-color: rgb(168, 168, 172);\r\n}\r\n\r\n#homeMain {\r\n    h1 {\r\n        font-size: large;\r\n    }\r\n    .highlight {\r\n        background-color: yellow;\r\n    }\r\n}\r\n\r\n#homeHeader {\r\n    .highlight {\r\n        background-color: yellow;\r\n    }\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/Home.scss"],"names":[],"mappings":"AAAA;EACE,oCAAA;AACF;;AAGE;EACE,gBAAA;AAAJ;AAEE;EACE,wBAAA;AAAJ;;AAKE;EACE,wBAAA;AAFJ","sourcesContent":["#homeTitle {\r\n  background-color: rgb(168, 168, 172);\r\n}\r\n\r\n#homeMain {\r\n  h1 {\r\n    font-size: large;\r\n  }\r\n  .highlight {\r\n    background-color: yellow;\r\n  }\r\n}\r\n\r\n#homeHeader {\r\n  .highlight {\r\n    background-color: yellow;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2975,7 +2975,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.col {
   border: solid 1px yellow;
-}`, "",{"version":3,"sources":["webpack://./src/Views/ResponsiveDesign.scss"],"names":[],"mappings":"AAAA;EACI,wBAAA;AACJ","sourcesContent":[".col {\r\n    border: solid 1px yellow;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/ResponsiveDesign.scss"],"names":[],"mappings":"AAAA;EACE,wBAAA;AACF","sourcesContent":[".col {\r\n  border: solid 1px yellow;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3003,7 +3003,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `main {
   color: blue;
-}`, "",{"version":3,"sources":["webpack://./src/Views/Videos.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;AACJ","sourcesContent":["main {\r\n    color: blue;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/Videos.scss"],"names":[],"mappings":"AAAA;EACE,WAAA;AACF","sourcesContent":["main {\r\n  color: blue;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
