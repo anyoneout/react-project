@@ -13921,29 +13921,32 @@ __webpack_require__.r(__webpack_exports__);
 
 const bodyTag = document.getElementById("bodyTag");
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
+const domain = window.location.hostname;
+let rootPath = "";
+if (domain === "anyoneout.github.io") rootPath = "/react-project";
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/",
+  path: `${rootPath}/`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/Videos",
+  path: `${rootPath}/Videos`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Videos__WEBPACK_IMPORTED_MODULE_3__.Videos, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/MyGreeting",
+  path: `${rootPath}/MyGreeting`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_MyGreeting__WEBPACK_IMPORTED_MODULE_4__.MyGreeting, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/OutputPractice",
+  path: `${rootPath}/OutputPractice`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_OutputPractice__WEBPACK_IMPORTED_MODULE_5__.OutputPractice, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/Domain",
+  path: `${rootPath}/Domain`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Domain__WEBPACK_IMPORTED_MODULE_6__["default"], null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/Carousel",
+  path: `${rootPath}/Carousel`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Carousel__WEBPACK_IMPORTED_MODULE_7__["default"], null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/ActiveNavbar",
+  path: `${rootPath}/ActiveNavbar`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ActiveNavbar__WEBPACK_IMPORTED_MODULE_8__["default"], null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-  path: "/ResponsiveDesign",
+  path: `${rootPath}/ResponsiveDesign`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ResponsiveDesign__WEBPACK_IMPORTED_MODULE_9__["default"], null)
 }))));
 })();

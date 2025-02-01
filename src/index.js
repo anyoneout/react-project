@@ -14,17 +14,20 @@ import ResponsiveDesign from "./Views/ResponsiveDesign";
 
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(bodyTag);
+const domain = window.location.hostname;
+let rootPath = "";
+if (domain === "anyoneout.github.io") rootPath = "/react-project";
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Videos" element={<Videos />} />
-      <Route path="/MyGreeting" element={<MyGreeting />} />
-      <Route path="/OutputPractice" element={<OutputPractice />} />
-      <Route path="/Domain" element={<Domain />} />
-      <Route path="/Carousel" element={<Carousel />} />
-      <Route path="/ActiveNavbar" element={<ActiveNavbar />} />
-      <Route path="/ResponsiveDesign" element={<ResponsiveDesign />} />
+      <Route path={`${rootPath}/`} element={<Home />} />
+      <Route path={`${rootPath}/Videos`} element={<Videos />} />
+      <Route path={`${rootPath}/MyGreeting`} element={<MyGreeting />} />
+      <Route path={`${rootPath}/OutputPractice`} element={<OutputPractice />} />
+      <Route path={`${rootPath}/Domain`} element={<Domain />} />
+      <Route path={`${rootPath}/Carousel`} element={<Carousel />} />
+      <Route path={`${rootPath}/ActiveNavbar`} element={<ActiveNavbar />} />
+      <Route path={`${rootPath}/ResponsiveDesign`} element={<ResponsiveDesign />} />
 
     </Routes>
   </BrowserRouter>
