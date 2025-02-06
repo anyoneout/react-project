@@ -6,17 +6,13 @@ import Nav from "./Nav";
 export function OutputPractice() {
   const [message, setMessage] = useState(<p>default useState message via jsx paragraph</p>)
   return (
-    <>
-      <Nav />
-      <main>
-        <form onSubmit={handleSubmit}>Enter some text
-          <input />
-          <input type="submit" />
-        </form>
-        <output>{message}</output>
-      </main>
-
-    </>
+    <main>
+      <form onSubmit={handleSubmit}>Enter some text
+        <input />
+        <input type="submit" />
+      </form>
+      <output>{message}</output>
+    </main>
   );
 
   function handleSubmit(event = new Event) {

@@ -9,6 +9,12 @@ import Domain from "./Views/Domain";
 import Carousel from "./Views/Carousel";
 import ActiveNavbar from "./Views/ActiveNavbar";
 import ResponsiveDesign from "./Views/ResponsiveDesign";
+import CollapsibleNavbar from "./Views/CollapsibleNavbar";
+import Modal from "./Views/Modal";
+import SignInModal from "./Views/SingInModal";
+import Header from "./Views/Header";
+import Footer from "./Views/Footer";
+import Nav from "./Views/Nav";
 
 
 
@@ -19,6 +25,7 @@ let rootPath = "";
 if (domain === "anyoneout.github.io") rootPath = "/react-project";
 root.render(
   <BrowserRouter>
+    <Header />
     <Routes>
       <Route path={`${rootPath}/`} element={<Home />} />
       <Route path={`${rootPath}/Videos`} element={<Videos />} />
@@ -26,10 +33,13 @@ root.render(
       <Route path={`${rootPath}/OutputPractice`} element={<OutputPractice />} />
       <Route path={`${rootPath}/Domain`} element={<Domain />} />
       <Route path={`${rootPath}/Carousel`} element={<Carousel />} />
+      <Route path={`${rootPath}/Modal`} element={<Modal />} />
+      <Route path={`${rootPath}/CollapsibleNavbar`} element={<CollapsibleNavbar />} />
       <Route path={`${rootPath}/ActiveNavbar`} element={<ActiveNavbar />} />
+      <Route path={`${rootPath}/SignInModal`} element={<SignInModal />} />
       <Route path={`${rootPath}/ResponsiveDesign`} element={<ResponsiveDesign />} />
-
     </Routes>
+    <Footer />
   </BrowserRouter>
 
 

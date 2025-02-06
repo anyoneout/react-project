@@ -5,6 +5,7 @@ import handleSubmit from "../controllers/handleSubmit";
 import "./Home.scss";
 import src from "../assets/image.jpg";
 import Nav from "./Nav";
+import Modal from "./Modal";
 
 const number = "4";
 const message = `1 2 3 ${number}`;
@@ -16,10 +17,8 @@ export function Home() {
 
   return (
     <>
-      <header id="homeHeader">
-        <Nav />
-      </header>
       <main id="homeMain">
+        <Modal />
         <img id="imagePic" data-bs-toggle="tooltip" data-bs-title="headpiece" src={src} width="100px"></img>
         <h1>Hello World! command line is newt test second test {message}</h1>
         <ol className="list-group">colors

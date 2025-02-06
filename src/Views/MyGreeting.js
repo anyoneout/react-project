@@ -12,14 +12,10 @@ export function MyGreeting() {
   useEffect(componentDidUnmount, []);
 
   return (
-    <>
-      <Nav />
-      <section>
-
-        <h3>My Greeting</h3>
-        <p>{greeting}</p>
-      </section>
-    </>
+    <section>
+      <h3>My Greeting</h3>
+      <p>{greeting}</p>
+    </section>
   );
   function changeGreeting() {
     setGreeting("Have a nice day!");
@@ -30,7 +26,7 @@ export function MyGreeting() {
 
   function componentDidUnmount() {
     function displayMessage() {
-      console.log("component did unnmout")
+      console.log("component did unnmount")
     }
     return displayMessage;
 
@@ -44,7 +40,7 @@ export function MyGreeting() {
     console.log("The component mounted.");
     setTimeout(changeGreeting, 5000);
 
-    return componentDidUnmount
+    return componentDidUnmount;
   }
 }
 
