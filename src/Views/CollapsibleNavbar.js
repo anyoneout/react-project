@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-import "./CollapsibleNavbar.js";
+import "./CollapsibleNavbar.scss";
 
 export default function CollapsibleNavbar() {
   return (

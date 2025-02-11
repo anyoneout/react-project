@@ -1,4 +1,4 @@
 {
-    "liveServer.settings.port": 5501,
-    "fiveServer.settings.fallbackPage": "/index.html"
+  "liveServer.settings.port": 5501,
+  "fiveServer.settings.fallbackPage": "/index.html"
 }

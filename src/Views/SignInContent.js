@@ -1,21 +1,19 @@
 import React from "react";
 
-export default function SignInContent(props) {
-  const errorMessage = props.errorMessage;
-  const userEmail = props.email;
-  const userPassword = props.password;
+export default function SignInContent({ errorMessage }) {
+
+
 
   return (
     <>
       Email: <input
         type="email"
-        value={userEmail}
+        name="email"
         required />
       <br />
       Password: <input
         type="password"
-        value={userPassword}
-
+        name="password"
         required />
       <div style={{ color: "red" }} > {errorMessage}</div >
     </>

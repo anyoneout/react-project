@@ -11,10 +11,11 @@ import ActiveNavbar from "./Views/ActiveNavbar";
 import ResponsiveDesign from "./Views/ResponsiveDesign";
 import CollapsibleNavbar from "./Views/CollapsibleNavbar";
 import Modal from "./Views/Modal";
-import SignInModal from "./Views/SingInModal";
+import SignInModal from "./Views/SignInModal";
 import Header from "./Views/Header";
 import Footer from "./Views/Footer";
 import Nav from "./Views/Nav";
+import SignOutModal from "./Views/SignOutModal";
 
 
 
@@ -24,7 +25,7 @@ const domain = window.location.hostname;
 let rootPath = "";
 if (domain === "anyoneout.github.io") rootPath = "/react-project";
 root.render(
-  <BrowserRouter>
+  <BrowserRouter >
     <Header />
     <Routes>
       <Route path={`${rootPath}/`} element={<Home />} />
@@ -37,6 +38,7 @@ root.render(
       <Route path={`${rootPath}/CollapsibleNavbar`} element={<CollapsibleNavbar />} />
       <Route path={`${rootPath}/ActiveNavbar`} element={<ActiveNavbar />} />
       <Route path={`${rootPath}/SignInModal`} element={<SignInModal />} />
+      <Route path={`${rootPath}/SignOutModal`} element={<SignOutModal />} />
       <Route path={`${rootPath}/ResponsiveDesign`} element={<ResponsiveDesign />} />
     </Routes>
     <Footer />

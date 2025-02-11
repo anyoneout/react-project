@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, NavLink } from "react-router";
+import { NavLink } from "react-router";
+import SignInArea from "./SignInArea";
 
 export default function Nav() {
   const domain = window.location.hostname;
@@ -21,6 +22,7 @@ export default function Nav() {
       <NavLink className="nav-link" to={`${rootPath}/Carousel`}>Carousel</NavLink>
       <NavLink className="nav-link" to={`${rootPath}/ActiveNavbar`}>Active Navbar</NavLink>
       <NavLink className="nav-link" to={`${rootPath}/ResponsiveDesign`}>Responsive Web Design</NavLink>
+      <SignInArea />
     </nav>
   )
 }
